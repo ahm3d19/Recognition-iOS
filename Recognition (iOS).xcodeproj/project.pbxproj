@@ -16,6 +16,7 @@
 		6E8D1C28295099A7005FA428 /* Recognition__iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D1C27295099A7005FA428 /* Recognition__iOS_Tests.swift */; };
 		6E8D1C32295099A7005FA428 /* Recognition__iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D1C31295099A7005FA428 /* Recognition__iOS_UITests.swift */; };
 		6E8D1C34295099A7005FA428 /* Recognition__iOS_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D1C33295099A7005FA428 /* Recognition__iOS_UITestsLaunchTests.swift */; };
+		6E8D1C4129509A4B005FA428 /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D1C4029509A4A005FA428 /* VisionObjectRecognitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6E8D1C2D295099A7005FA428 /* Recognition (iOS)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recognition (iOS)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8D1C31295099A7005FA428 /* Recognition__iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognition__iOS_UITests.swift; sourceTree = "<group>"; };
 		6E8D1C33295099A7005FA428 /* Recognition__iOS_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognition__iOS_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E8D1C4029509A4A005FA428 /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				6E8D1C10295099A5005FA428 /* AppDelegate.swift */,
 				6E8D1C12295099A5005FA428 /* SceneDelegate.swift */,
 				6E8D1C14295099A5005FA428 /* ViewController.swift */,
+				6E8D1C4029509A4A005FA428 /* VisionObjectRecognitionViewController.swift */,
 				6E8D1C16295099A5005FA428 /* Main.storyboard */,
 				6E8D1C19295099A6005FA428 /* Assets.xcassets */,
 				6E8D1C1B295099A6005FA428 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E8D1C15295099A5005FA428 /* ViewController.swift in Sources */,
+				6E8D1C4129509A4B005FA428 /* VisionObjectRecognitionViewController.swift in Sources */,
 				6E8D1C11295099A5005FA428 /* AppDelegate.swift in Sources */,
 				6E8D1C13295099A5005FA428 /* SceneDelegate.swift in Sources */,
 			);
@@ -443,8 +447,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +476,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
